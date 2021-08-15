@@ -104,3 +104,11 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .content {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+}
