@@ -32,7 +32,7 @@ p {
   height: 100%;
   width: 100%;
   padding-top: 30vh;
-  padding-left: 50vh;
+  padding-left: 40vh;
 }
 .content h1 {
   font-size: 70px;
@@ -41,12 +41,10 @@ p {
   line-height: 1.2;
 }
 .home-btn {
-  position: absolute;
-  bottom: 0;
-  left: 35%;
-  margin-bottom: -20vh;
+  margin-top: 5vh;
+  margin-left: 17%;
   padding: 10px 20px;
-  background: transparent;
+  background: black;
   transition: 0.5s;
   border-radius: 5px;
   border-color: white;
@@ -58,6 +56,15 @@ p {
   border: none;
   color: #333333;
   box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: black;
+  border: 1px solid;
 }
 
 .navigation-links {
@@ -73,7 +80,6 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
