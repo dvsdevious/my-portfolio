@@ -1,0 +1,51 @@
+.navbar-dark {
+  background-color: black;
+}
+.content-area {
+  padding: 100px 80px;
+}
+.content {
+  margin: 30px;
+}
+.content h1 {
+  font-size: 64px;
+}
+.content h2 {
+  color: #5a6270;
+}
+.content p {
+  font-size: 18px;
+}
+.about-btn {
+  background-color: transparent;
+  border-color: black;
+  font-family: "Oswald", sans-serif;
+  padding: 5px 10px;
+}
+.about-btn:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  button {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .content-area {
+    text-align: center;
+    padding: 100px 0;
+  }
+}
